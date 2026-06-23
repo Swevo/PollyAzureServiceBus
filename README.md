@@ -199,6 +199,8 @@ Retry → Circuit Breaker → Timeout → Service Bus operation
 | [PollyCaching](https://www.nuget.org/packages/PollyCaching) | Distributed cache with Polly resilience |
 | [PollyBulkhead](https://www.nuget.org/packages/PollyBulkhead) | Bulkhead isolation for concurrent workloads |
 
+| [PollyRabbitMQ](https://www.nuget.org/packages/PollyRabbitMQ) | Polly v8 resilience for RabbitMQ.Client channels |
+
 ## License
 
 MIT
