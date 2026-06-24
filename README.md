@@ -191,6 +191,7 @@ Retry → Circuit Breaker → Timeout → Service Bus operation
 | [PollyAzureEventHub](https://github.com/Swevo/PollyAzureEventHub) | Polly v8 for Azure Event Hubs |
 | [PollySendGrid](https://github.com/Swevo/PollySendGrid) | Polly v8 for SendGrid |
 | [PollyMassTransit](https://github.com/Swevo/PollyMassTransit) | Polly v8 for MassTransit |
+| [PollyAzureTableStorage](https://github.com/Swevo/PollyAzureTableStorage) | Polly v8 for Azure Table Storage |
 | [PollyBackoff](https://www.nuget.org/packages/PollyBackoff) | Advanced back-off strategies with jitter |
 | [PollyChaos](https://www.nuget.org/packages/PollyChaos) | Chaos engineering — inject faults in tests |
 | [PollyMediatR](https://www.nuget.org/packages/PollyMediatR) | Polly pipeline behaviour for MediatR |
