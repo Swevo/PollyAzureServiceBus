@@ -192,6 +192,9 @@ Retry → Circuit Breaker → Timeout → Service Bus operation
 | [PollySendGrid](https://github.com/Swevo/PollySendGrid) | Polly v8 for SendGrid |
 | [PollyMassTransit](https://github.com/Swevo/PollyMassTransit) | Polly v8 for MassTransit |
 | [PollyAzureTableStorage](https://github.com/Swevo/PollyAzureTableStorage) | Polly v8 for Azure Table Storage |
+| [PollyMailKit](https://github.com/Swevo/PollyMailKit) | MailKit SMTP email client |
+| [PollyAzureQueueStorage](https://github.com/Swevo/PollyAzureQueueStorage) | Azure Queue Storage QueueClient |
+| [PollyHangfire](https://github.com/Swevo/PollyHangfire) | Hangfire IBackgroundJobClient |
 | [PollyBackoff](https://www.nuget.org/packages/PollyBackoff) | Advanced back-off strategies with jitter |
 | [PollyChaos](https://www.nuget.org/packages/PollyChaos) | Chaos engineering — inject faults in tests |
 | [PollyMediatR](https://www.nuget.org/packages/PollyMediatR) | Polly pipeline behaviour for MediatR |
