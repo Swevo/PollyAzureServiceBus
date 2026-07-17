@@ -22,7 +22,7 @@
   <ItemGroup>
     <PackageReference Include="Polly.Core" Version="8.*" />
     <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.*" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.*" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.*" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.*" PrivateAssets="All" />
   </ItemGroup>
 
