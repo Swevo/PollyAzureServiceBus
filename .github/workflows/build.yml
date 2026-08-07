@@ -23,7 +23,9 @@ jobs:
           fi
       - uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.x'
+          dotnet-version: |
+            '8.x'
+            10.0.x
       - run: dotnet restore
       - run: dotnet build --no-restore -c Release
       - run: dotnet test --no-build -c Release --logger trx --results-directory TestResults
@@ -42,7 +44,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.x'
+          dotnet-version: |
+            '8.x'
+            10.0.x
       - run: dotnet restore
       - run: dotnet build src/PollyAzureServiceBus/PollyAzureServiceBus.csproj -c Release --no-restore
       - run: dotnet pack src/PollyAzureServiceBus/PollyAzureServiceBus.csproj -c Release --no-build -o nupkgs
