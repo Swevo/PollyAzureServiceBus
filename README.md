@@ -4,6 +4,7 @@
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PollyAzureServiceBus.svg)](https://www.nuget.org/packages/PollyAzureServiceBus)
 [![Build](https://github.com/Swevo/PollyAzureServiceBus/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/PollyAzureServiceBus/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![.NET 10 Ready](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](#)
 
 **Polly v8 resilience for Azure Service Bus** — automatic retry, circuit breaker, and per-operation timeout for sending and receiving messages. Drop-in wrappers for `ServiceBusSender` and `ServiceBusReceiver`, no configuration changes required.
 
